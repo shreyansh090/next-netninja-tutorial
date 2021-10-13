@@ -14,7 +14,7 @@ const index = ({ninjas}) => {
     <div>
          <h1>Ninja List</h1>
          {ninjas.map( ninja => (
-             <Link href = {`/Ninjas/${ninja.id}`} key = {ninja.id}>
+             <Link href = {`/Ninjas/${ninja.id}`}>
                  <a className = {styles.single}>
                  <h3>{ninja.name}</h3>
                  </a>
